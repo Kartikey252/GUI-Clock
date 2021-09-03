@@ -11,6 +11,7 @@ class Clock(Tk):
         self.geometry('500x150+750+250')
         self.minsize(430, 60)
         self.title('Clock App')
+        self.wm_iconbitmap(r'icon.ico')
         self.config(bg='#10111b')
 
     def insertTimeLabel(self):
